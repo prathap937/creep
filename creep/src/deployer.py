@@ -159,7 +159,7 @@ class Deployer:
 			rev_from = revision.get (name)
 
 # 			if rev_from is None and not self.yes and not self.prompt ('No current revision found, maybe you\'re deploying for the first time. Initiate full deploy? [Y/N]'):
-				return True
+			return True
 
 		if rev_to is None:
 			rev_to = source.current (base_path)
